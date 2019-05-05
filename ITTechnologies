@@ -121,7 +121,7 @@ Right now, it's hard to know if the AI development itself would even have a chan
 									<h3>Clouds, Services and Servers</h3><br/><br/>
 <h5>What does it do? (600 words) What is the state of the art of this new technology? What can be done now? What is likely to be able to do be done soon (say in the next 3 years)? What technological or other developments make this possible?</h5><br/><br/>
 Cloud computing is the storage of data within a remote database that is hosted online rather than on a local server. It offers many benefits towards users and business, ultimately providing increased speed, performance and security at a lower cost.
- 
+ <img src="images/cloud.png" alt="" /><br/><br/>
 There are three types of cloud infrastructure environments: public, private and hybrid.<br/><br/>
  
 									<h6>Public</h6><br/>
