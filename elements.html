@@ -30,11 +30,10 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="index.html">Team Profile</a></li>
+								<li><a href="generic.html">Industry Data & IT Work</a></li>
+								<li><a href="elements.html">IT Technologies & Project Ideas</a></li>
+								
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -53,49 +52,185 @@
 								<div class="inner">
 
 									<section>
-										<h3>IT PROFESSIONAL: System Engineer</h3><br/><br/>
+									<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">IT Technologies</h2>
+									<p><h3>Cybersecurity</h3><br/><br/>
+ 
+<h5>What does it do? (600 words) What is the state of the art of this new technology? What can be done now? What is likely to be able to do be done soon (say in the next 3 years)? What technological or other developments make this possible?</h5><br/><br/>
+ 
+There are a vast number of jobs in computer science and IT, from web development and software engineering to database administration and hardware engineering - no matter where your expertise lies, you are bound to be useful in some way to the tech world. Amongst the plethora of roles in CS/IT, Cybersecurity is a field that seems to be growing at an extremely fast rate in comparison to the other fields. The Bureau of Labor Statistics states that a 37% increase in the number of jobs in cybersecurity is expected for the period of 2012 to 2022. With new technology comes more efficient information processing. This means that cyber attacks are going to become more threatening as time goes on and as such; more experts in cybersecurity will be required to protect information. <br/><br/>
+ 
+Information is one of if not our most valuable resource, and the field of cybersecurity is what safeguards information. Even though we typically only hear about security breaches in large organisations (like Sony or Ashley Madison, for example), the truth is that no-one is completely safe. There is no such system that is 100% immune from an attack. While many systems may be 'computationally infeasible' to breach, it is certainly not impossible and because of this, there is an ever-present risk to important information that, if in the wrong hands, could be devastating.<br/><br/>
+ 
+Cryptography makes up a large part of cybersecurity. One example of an encryption algorithm in the public domain that is used today is the RSA encryption algorithm. This algorithm was developed by Ron Rivest, Adi Shamir and Len Adleman in 1977 and is the most used cryptography algorithm used across the world.<br/><br/>
+ 
+The genius of this algorithm is grounded in 2 aspects. The first is that it uses 2 different keys, a public key (used to encrypt plaintext to get ciphertext) and a private key (used to decrypt the ciphertext to get the plaintext again). The public key is known to everyone, but the private key is known only to the receiver of the data/message. Anyone can use the public key to encrypt data, but only the holder of the private key can unravel the message. This means that the public key can be sent between parties without the plaintext message being exposed while the private key needn't go any anywhere.<br/><br/>
+ 
+The second aspect is that the algorithm uses prime numbers to make it too difficult, even for a computer, to find the private key (and therefore gain access to the secret data). Both the public key and private key uses two prime numbers (p and q). An element of the public key, n, is the product of p and q, however, p and q themselves are secret and are the 'heart', so to speak, of the RSA algorithm. If p and q are known, then an attacker can use these to calculate the private key. However, if they are not known, then an attacker can use the public key (n) to  find p and q. Or can they? If p and q were not prime numbers, then there are perhaps several values that would work for p and q to get n. But since an attacker only knows n, they have to factorise n so as to get p and q that are both prime. This means that p and q can only ever have 1 possible value respectively. In an attempt to brute force p and q, the computer must do many, many calculations. If p and q are small numbers it doesn't take long, but in the real world very large numbers are used and it would take a computer far too long to find p and q which means that data encrypted by RSA is considered 'safe'.<br/><br/>
+ 
+Quantum computing is a technological advancement that is yet to reach us but is being worked on by computer scientists. It is perhaps not so close to being available, however, once the technology arrives it may prove to be problematic for modern cryptography. Rather than being based on a typical electronic system, quantum computers will be based on quantum physics. This basically means that a small unit like a bit, instead of being equal to 0 OR 1 (like in typical computers), can exist in what is called a superposition and can simultaneously be both 0 AND 1. These kinds of bits are known as qubits.<br/><br/>
+
+<h5>What is the likely impact? (300 words) What is the potential impact of this development? What is likely to change? Which people will be most affected and how? Will this create, replace or make redundant any current jobs or technologies?</h5><br/><br/>
+ 
+Quantum computers technically do currently exist, but on such a small scale that they are not useful yet. IBM currently has a quantum computer that has a mere 16 qubits. To put that in perspective, typical computers can have multiple gigabytes of random access memory (RAM). This is equal to billions of regular bits. Algorithms in modern cryptography, like RSA, are considered virtually uncrackable by the computational power currently available. This is due to the use of prime factorisation briefly described above. Keys that contain a product of p and q that are hundreds of decimal digits long take so long to crack that it is pointless to try. With quantum computing, a number this large could be cracked in a matter of hours using Shor's algorithm, however quantum computers are still quite some way from being able to calculate large numbers.<br/><br/>
+ 
+In the future, stronger encryption systems will need to be devised as quantum computing will be able to break modern encryptions in a very short amount of time. The worry is that this kind of technological development will render all communication insecure as if everything was sent in plaintext. This would affect every communications system in the world and would be devastating. It is important that plans are made for replacement algorithm(s) as they could take a long time to implement. The NIST is already testing what is called 'post-quantum cryptography' which currently involves 69 new methods that could replace modern cryptography when quantum computing becomes the norm.<br/><br/>
+ 
+<h5>How will this affect you? (300 words) In your daily life, how will this affect you? What will be different for you? How might this affect members of your family or your friends?</h5><br/><br/>
+ 
+Quantum computing will revolutionise the way data is processed. It will mean that certain encryption methods that I rely on to hide my communications will be rendered useless and that may mean that any messages I transmit will exist in plain sight with everyone having access. In an ideal future, replacement algorithms will be developed, tested and released ready for the public domain before quantum computing becomes mainstream.<br/><br/>
+ 
+It’s not all bad news, though.This development could also change my life for the better. Because quantum computers will be able to analyse huge sets of data in a short amount of time, they can aid in the development of life-saving medicines that I (or my family) may need one day and solve very complex problems in science. Quantum computing will also be capable of making more informed weather forecasting, meaning I can make plans around weather forecasts more confidently. Traffic control will also become more streamlined due to this advancement. It would reduce congestion by routing traffic more efficiently and make my commute easier. Air traffic would follow suit, making the dreaded flying experience less taxing on myself whenever I do need to travel.<br/><br/>
+<h2 class="major"></h2>	
+									
+									<h3>Machine Learning</h3><br/><br/>
+<h5>What does it do? (600 words) What is the state of the art of this new technology? What can be done now? What is likely to be able to do be done soon (say in the next 3 years)? What technological or other developments make this possible?</h5><br/><br/>
+ 
+Machine learning is a subset of artificial intelligence which is the study of algorithms in mathematics and computer science with the purpose of carrying out tasks based on conditions, rather than pre-defined instructions. Machine learning is essentially about showing a computer how to make predictions when given data. Machine learning is all about getting a computer to make sense of the messy real world. It is responsible for tasks such as separating relevant emails from spam, detecting obstacles in a self-driving vehicle as to avoid them or generating subtitles/captions for videos by analysing speech.<br/><br/>
+ 
+A state of the art example of machine learning is the AlphaGo project, created by Google's DeepMind. AlphaGo is a computer program that was developed to play Go, a complex Chinese board game (like chess), as a sort of test to see how well DeepMind's neural network algorithm could navigate a complex game like Go against not just human players, but some of the world's best. The AlphaGo project began in 2014 and operates using an algorithm that is based on machine learning techniques and 'tree search' that has been sharpened through training with other computers as well as human players. To begin, AlphaGo was given a large amount of data that consisted of moves from past Go matches between human players. The database consisted of around 30 million moves. This allowed it to mimic human play immediately. Once the AI had improved enough, AlphaGo was made to play against versions of itself and from this, it learned even more about how to play Go optimally.<br/><br/>
+ 
+In October 2015, AlphaGo beat a professional Go player for the first time ever, Fan Hui. Just months later, AlphaGo played 5 games against one of the top ranked players in the world, Lee Sedol. AlphaGo won 4 out of the 5 games they played. This was huge for the world of AI and machine learning as AlphaGo wasn't initially designed to be proficient at Go, but rather was designed to learn and was given the task of learning Go. Being the best at a board game doesn't sound like much of an achievement, but it was more of a test for the learning capabilities built into the algorithms designed by DeepMind. This means that an AI like AlphaGo can likely learn other, more practical skills that can help us in more profound ways.<br/><br/>
+ 
+There is a fear that development in machine learning and AI can give rise to a kind of general intelligence. This may be more than just a few years away, but it has been said that we are closer than many of us realise. Sam Harris, a neuroscientist, author and philosopher, outlines this in a succinct way by make the point that we are already on a continuum towards building a kind of general intelligence in our machines. He states that if super-intelligent AI is impossible, then something must be wrong with one of the three following assumptions.<br/><br/>
+ 
+Intelligence can simply arise in a physical system that is capable of information processing. As long as we continue to build better systems of atoms, we will eventually build one capable of general intelligence. Our brains have managed to do this and although complex, it is not beyond understanding.<br/><br/>
+  
+The second is that we will keep developing better and better systems, improving on this previous version. As long as the human species exists, we will keep improving our systems. Nothing short of extinction could stop us.<br/><br/>
+  
+The last assumption is that we, as humans, do not represent the peak of intelligence. If we were to build a self-learning AI that were as smart as we were, the idea is that it could improve upon itself and exceed us in ways we cannot imagine. Electronic circuits process information at speeds ridiculously faster than biological ones, so a general AI capable of self-learning would exceed us immediately.<br/><br/>
+  
+<h5>What is the likely impact? (300 words) What is the potential impact of this development? What is likely to change? Which people will be most affected and how? Will this create, replace or make redundant any current jobs or technologies?</h5><br/><br/>
+ 
+Machine learning can give rise to an intelligence that would make machines superior to humans at just about any task. In terms of labour reduction, a super-intelligent AI capable of learning at an incredible rate would be revolutionary in its impact. People would be out of work due to not being able to keep up with machines. A general intelligence in a machine would have far too many advantages. One advantage includes the cost. A large lump sum for the technology itself would make for a costly investment, but a worthwhile one. This initial cost would be eclipsed over time as a machine does not require a wage like a human does. The costs involved would only include the initial sum, energy to power the machine and any repair costs. This kind of advantage already makes intelligent machines an attractive candidate for replacing employees, and yet there are many more advantages. Fair work would no longer be a concern - a machine cannot be injured or overworked (assuming proper maintenance of the machine, like cooling, oil, etc.). It does not require time off work, it does not need to be trained further than the initial machine learning process. Even so, the machine would learn the task at hand much faster than a human and beyond that, the same algorithm could then be applied to the rest machines in the same network. Machines are more reliable than humans - they are not late, they are not influenced by emotions or thoughts that are not relevant to the task at hand. Machines are capable of being precise right down to the smallest of units; a single millimetre, pixel, bit, particle, etc.<br/><br/>
+ 
+This would have a huge impact on everyone around the world. Due to the number of jobs being taken by machines, people would have no income to support themselves. The owners of the companies who built these machines (likely to a tech giant such as Google, Facebook, Tencent, etc.) would have the lion's share of the wealth in the world while the rest would starve. It has been suggested then that a universal basic income would be required, otherwise the wealth inequality would leave the majority of the world to perish.<br/><br/>
+ 
+The presence of this level of AI would remove any need for any human labour. It would also remove the need for any human intellectual work. With this kind of intelligence available, it would solve problems that humans have been trying to solve for centuries. A cure for cancer, a solution to climate change, financial models being created in ways that we could never conceive on our own. To create an AI capable of general intelligence is to do so much more that just that - it provides an answer to many of the world's problems.<br/><br/>
+ 
+<h5>How will this affect you? (300 words) In your daily life, how will this affect you? What will be different for you? How might this affect members of your family or your friends?</h5><br/><br/>
+ 
+It's not exactly clear how this technology would impact my life without seeing it become a reality, first. There are fears that the development of a super-intelligent AI could cause immediate destruction to the human race. With an understanding of how powerful any one person or any one organisation could become with access to super-intelligence, concerns about who will be the first to develop a general AI aren't misplaced. This technology could be weaponised if it were to get in the wrong hands. To have access to this technology is to be thousands of years ahead of today's technological landscape. Privacy and data protection would evaporate with encryptions and hashes being brute forced at insanely fast speeds. Weapons capable of ending civilisation. Even just mere rumour of someone being close to developing a general AI could cause the human race to go crazy. If it were discovered that Google were on the brink of breaking through, how would powerful forces like China or Russia respond? Because having access to this kind of intelligence means to have access to unimaginable power, the likes of ethics, laws and rights would not be of much importance in the wake of this technology.<br/><br/>
+ 
+Right now, it's hard to know if the AI development itself would even have a chance of a long-term impact on my life. Perhaps the global meltdown due to its emergence would  It would depend on what is being done in advance to prepare for this kind of technology, which doesn't seem to be as far away as many people think. <br/><br/>
+<h2 class="major"></h2>	
+									
+									<h3>Clouds, Services and Servers</h3><br/><br/>
+<h5>What does it do? (600 words) What is the state of the art of this new technology? What can be done now? What is likely to be able to do be done soon (say in the next 3 years)? What technological or other developments make this possible?</h5><br/><br/>
+Cloud computing is the storage of data within a remote database that is hosted online rather than on a local server. It offers many benefits towards users and business, ultimately providing increased speed, performance and security at a lower cost.
+ 
+There are three types of cloud infrastructure environments: public, private and hybrid.<br/><br/>
+ 
+									<h6>Public</h6><br/>
+Public services are owned and maintained completely by a third party service. The business simply accesses the data while all the backend is handled by the third party provider. Hardware and software is shared between other organisations. Costs are lowered due to the shared nature of the cloud and there is no work that needs to be done in order to maintain the cloud by the business.<br/><br/>
+ 
+									<h6>Private</h6><br/>
+Cloud computing resources only used by a singular entity. Private clouds can either be found physically on a businesses data centre or hosted by a third party. The infrastructure and services are hosted on private networks, increasing the security of the cloud. These clouds are often utilised by large-scale organisations.<br/><br/>
+ 
+									<h6>Hybrid</h6><br/>
+A combination of both public and private clouds - data is allowed to move freely between public and private clouds and grants greater flexibility in data and application management. Specific applications can utilise public and private networks for different types of data based on their sensitivity.<br/><br/>
+ 
+There are also three types of cloud computing services: IaaS, PaaS and SaaS<br/><br/>
+ 
+									<h6>IaaS – infrastructure as a service</h6><br/>
+IaaS is where computing resources are provided online. A third-party cloud provider will host infrastructure components usually present on an in-house data centre – this can include servers, storage and networking hardware. Organisations may utilise IaaS due to its ease of use and cost efficiency (the business no longer has to manage or maintain their own IT infrastructure.) A drawback however, is that IaaS can ultimately be incredibly expensive through its pay-as-you-go business model, and if usage is not properly monitored by the business IaaS can be quite expensive.<br/><br/>
+ 
+									<h6>PaaS - platform as a service</h6><br/>
+PaaS is the providing of hardware and software tools, many relating to app development, through to users via the internet. PaaS will not replace a businesses entire IT infrastructure, and instead will be relied upon for services such as Java development and the hosting of applications. PaaS’s main benefit is within the convenience it offers its’ users. Users can access the IT infrastructure among other things from anywhere through a web browser. The access is charged on a pay-per-use basis. A negative of utilising PaaS however, can be the reliance on the external provider – service outages can occur, and this can have negative effects on productivity which can be expensive.<br/><br/>
+ 
+									<h6>SaaS – software as a service</h6><br/>
+SaaS is a method of delivering applications over the internet where a third-party provider hosts applications and makes them available for use to customers online. SaaS is a benefit to businesses as it eliminates the requirement for a business to install applications on their own computers and data centres. It eliminates expenses such as maintenance and installation that would’ve been previously required. A drawback in using SaaS is the reliance on external entities to provide and manage the software. If the external provider experiences service disruption or a security breach, customers’ ability to use software and make use of the SaaS can be disrupted.<br/><br/>
+ 
+At present these are the main services offered to business by cloud service providers. Other non-business oriented examples include simple every day services such as Google Drive and their similar services provided within the drive (Google Docs.) All of these are stored on Google's services and are a prime example of cloud storage.<br/><br/>
+ 
+The future of cloud services will have a heavy impact on businesses and how they run their IT infrastructures. Businesses are quickly leaning towards cloud services over the traditional methods of in-house databases due to the much higher cost efficiency, and general ease of use. Issues such as finding space for large in-house servers on a businesses land are now an issue of the past, and the previous difficulty of having to update software on each system and computer individually within a business is similarly becoming a redundant issue.<br/><br/>
+
+<h5>What is the likely impact? (300 words) What is the potential impact of this development? What is likely to change? Which people will be most affected and how? Will this create, replace or make redundant any current jobs or technologies?</h5><br/><br/>
+
+Whilst in house maintenance will no longer be needed for onsite servers and databases, there will still be people who need to maintain the external servers and jobs will still be out there for those with a speciality in the field of cloud computing.<br/><br/>
+ 
+One heavily impacted area of employment is the healthcare industry. “A published HIMSS Analytics Survey published in 2018 noted that 60% of responding healthcare organisations are now using the cloud for backup and disaster recovery (an increase of 38%) and 51% are now using the cloud for core applications and data.” (Yifat Perry 2018, Netapp.com) The cloud and its unlimited scalability for those utilising it provides a huge benefit for healthcare where there is a high volume of sensitive customer data, and its pay-per-use model means that operational costs can be decreased for the businesses behind healthcare services.<br/><br/>
+ 
+Cloud computing will ultimately impact all fields of work, as the need to store data or use applications and maintain the infrastructure behind that storage is something all businesses require. As cloud computing becomes more prevalent the ease of use in accessing such apps and data will increase, benefiting quality of life for employees, and cost efficiency for the business. The cloud computing market has also become huge, with Louis Columbus (Forbes) projecting the cloud computing market to reach “$411 billion by 2020”.<br/><br/>
+ 
+Overall, cloud computing will greatly affect many industries positively, and is a method of storage and infrastructure that will only improve as technology progresses.<br/><br/>
+
+<h5>How will this affect you? (300 words) In your daily life, how will this affect you? What will be different for you? How might this affect members of your family or your friends?</h5><br/><br/>
+
+Current developments in cloud technology that have personally affected me are the increased functionality in Google Drive. In my final years of High School the transition from textbooks to laptops was made, as well as the handing in of work through Google Docs and similar applications. This has similarly affected university work at present, whereby group members will share their work through services such as Google Drive – it has simplified collaboration as members can edit in real time, unlike in the past where users would have to complete all their work separately and then compile it themselves.<br/><br/>
+ 
+This similarly affects friends of mine, where collaborative work is much simpler.<br/>
+In terms of family, my parents whom both work in industries dealing with sensitive customer data will have experienced change in how applications are delivered to them, and how their data is stored, where, as mentioned, the need for onsite databases and servers is no longer needed for businesses. The data will, if not already, eventually be stored remotely as the cloud takes over as the most cost efficient method of storage. The way software is delivered is something that may be affected as well, as the transition from individually installed applications on employees computers may transition to accessing said applications through a web browser instead.<br/><br/>
+ 
+Ultimately, cloud computing and its future developments have already affected, and will continue to affect both work completed by schoolchildren, as well as that of employees working under businesses.<br/><br/>
 
 
-							
+<h2 class="major"></h2>	
+									
+									<h3>Natural Language Processing and Chatterbots</h3><br/><br/>
 
+									
+<h5>What does it do? (600 words) What is the state of the art of this new technology? What can be done now? What is likely to be able to do be done soon (say in the next 3 years)? What technological or other developments make this possible?</h5><br/><br/>									
 
-										<h5>Background knowledge:</h5><br/>
- Verint is a world renown company in the vast and dynamic technology industry, that specialise in the areas of customer engagement and cyber intelligence.<br/><br/>
+It’s the interactions between computers and human languages. Its how to program computers to process and analyse large amounts of the natural human language. This means how technology can easily understand and perform based on human inputs. Inputs can be things such as speech recognition or machine transferring. This is because when programming computers, coded languages such as python, java or C++ is used, which can be quite complicated. Chatterbots need to implement Natural Language Processing to be able to understand and react to the human input.<br/><br/>
+There are two categories that splits Natural Language Processing. Natural Language Understanding and Natural Language Generation. It takes a lot of time and a lot of things to be able to understand a Language. There are algorithms for the computer to understand the Natural Language, when there is input of text, the computer uses the algorithms to get the data related to the input and releases the information into text.<br/><br/>
+There are a few techniques used to complete NLP tasks; Syntax and Semantics. Syntax is for the sentence to make grammatical sense. In NLP, synaptic analysis is used to identify how Natural Language aligns with grammatical rules. There are many techniques that fall under Syntax such as; Lemmatization, Word Segmentation, Parsing, Sentence Breaking and Stemming.<br/><br/>
+·      Lemmatization:<br/> entails reducing the various inflected forms of a word into single form for easy analysis<br/><br/>
+·      Word Segmentation:<br/> it involves dividing a large piece of continuous text into distinct units<br/><br/>
+·      Parsing:<br/> it involves undertaking grammatical analysis for the provided sentence<br/><br/>
+·      Stemming:<br/> it involves cutting the inflected words to their root form<br/><br/>
+Semantics on the other hand is the meaning behind the given text. This is an aspect of NLP that hasn’t full been developed or resolved yet. This step involves implementing algorithms to understand the meaning of the words. Few techniques that fall under Semantics are Named entity recognition, Word Sense Disambiguation and Natural Language Generation <br/><br/>
+·      Named entity recognition:<br/> it involves determining the parts of a text that can be identifies and categorized into present groups. examples of such groups include names of people and names of places.<br/><br/>
+·      Word sense disambiguation:<br/> it involves meaning to a word based on the context<br/><br/>
+·      Natural Language generation:<br/> it involves using databases to derive semantic intentions and convert them into human language<br/><br/>
+In today’s world, Natural language processing can do things such as draw insights, create advertisements, help you text on your phone and more. In the next few years, NLP will be enhanced and will be able to complete many tasks which includes; being able to manipulate big sets of data in a way to collect it, process it and archive it. NLP will also be able to extend into new apps for search engines, customer support translation, education, law and finance. Bots will be included and will include text and vision capabilities. Technology such as making robots and human computer interaction (HCI) will be developed to further the Natural Language processing technology. HCI intends to build AI machines that can communicate with humans solely using natural language. A process the HCI uses, is the Conversation as a Platform. Today HCI using systems can do things such as booking tickets and buying coffee. Natural language processing completes tasks such as language translating such as Google Translate, Word processors to check correct grammar and spelling on Microsoft Word, applications used in call centres to recognise and understand the requests of customers and to personal voice assistance such as Siri, Amazon Alexa and OK Google.<br/><br/>
+A chatbot called Tala answers questions based on company policies, it also collaborates with an audio search start up ‘Second Mind’ which will show the answers to the requested questions. NLP can have business, social and personal benefits. NLP can help monitor emotional state through an electrical therapist, this works by reading the face of a person and tracking specific words that the user has said.<br/><br/>
+									
+<h5>What is the likely impact? (300 words) What is the potential impact of this development? What is likely to change? Which people will be most affected and how? Will this create, replace or make redundant any current jobs or technologies?</h5><br/><br/>
 
-										<h5>What kind of work is done by the IT professional?</h5><br/>
-A system engineer at Verint is responsible for going out to client sites and helping them install the company’s software into their system and further configuring it to ensure the software is running smoothly. In addition, they are required to support their clients in the future if any errors arise or a new feature for the software needs to be installed. <br/><br/>
-										<h5>What kinds of people does the IT professional interact with?</h5><br/>
-The majority of clients for a system engineer are investors. These investors consist of people from different hierarchy ranks amongst different companies.<br/><br/>
-										<h5>Project manager:</h5><br/>
-They are required to install workforce management software for the project managers in order to help them manage their company’s schedule as well as educate them how to efficiently operate the software and troubleshoot any small issues.<br/><br/>
+In the future, NLP will grow and the final result will be so that all machines and AIs perfectly understand and interpret the natural language and is able to act upon it. A change that will be made is that the businesses with call centres and customer services will be changed. So customers of almost any company, which is almost the earth's population will be able to get a different outcome from this. Ultimately this results in no hands on job by humans to take on customer service or many business offices which means an uncountable amount of jobs will be lost and there will be a massive decrease in job opportunities when coming across the business jobs and customer service jobs. Multi modal learning: since babies don’t learn to speak, they learn by the sounds they hear, what they see and what they touch. For that reason researchers are trying to build AI to be able to respond to things by the sound and vision. Once this feature is developed and complete and implemented into programs, it will affect people who are on the internet. Video QA is a multi modal task that returns a short video clip as an answer to an input, which makes search results easier to understand. The idea of short music and video social platforms, live streaming apps and artificial reality tech, and understanding and creating videos will become a key to the future.<br/><br/>
+									
+<h5>How will this affect you? (300 words) In your daily life, how will this affect you? What will be different for you? How might this affect members of your family or your friends?</h5><br/><br/>									
+									
+It isn’t really clear on how this technology will impact my daily life if it was implemented, since NLP implemented AI’s haven’t fully developed today, but imagining having the NLP full developed, the effects of it would be huge for us because of how conveniently we can deal with social problems and also business problems when calling into businesses. Although there is an aspect of convenience, there is fear that this technology will take over almost everything in this world and can be used for bad things. This technology will be used for almost anything the humans do today meaning that we won’t be able to do anything for ourselves and with all the jobs currently undertaken by humans can be done by AIs meaning the future of the human population will be useless.
 
-										<h5>Chief technology officer:</h5><br/>
-
-They are invited to a corporate sale pitch where they have to display a presentation to sell the “Verint” software to other companies and showcase the strong aspects of the software and how it greatly improve your company’s management systems and security.<br/><br/>
-
-										<h5>Other system engineers from other companies:</h5><br/>
-They are required to interact with other system engineers within other companies in order to teach them how to troubleshoot the “Verint” software if any serious problems occur in the future.  <br/><br/>
-
-										<h5>Database administrator:</h5><br/>
-After the installation of the “Verint” software, they have teach to the administrator how manage and keep their data secure as the software requires further configuration from their own company. <br/><br/>
-
-										<h5>Business users:</h5><br/>
-After the installation of the workforce management software, they need to train users of the business how to efficiently run the program. <br/><br/>
-
-										<h5>Call recording companies:</h5><br/>
-They are required to install the “Verint” call recording software and teach them how to correctly manage the system.<br/><br/>
-
-
-
-										<h5>Where does the IT professional spend most of their time?</h5><br/>
-A system engineer mainly spends most of their time at client sites, helping them install and configure the “Verint” software as well as educating the users of the software how to effective operate the system. Other times if any minor error occurs,  they can work from home or at the office by having remote access of the software through the company’s servers as everything can be monitored digitally. <br/><br/>
-										<h5>What aspect of their position is most challenging?</h5><br/>
-The most challenging part of been a system engineer at Verint is learning a new product or feature for the software in a short period of time. For instance, a new feature for the software came out today and you are required to go the client’s site the next day to install and train the users at the company with limited knowledge when you are expected to have full understanding of the new installment. In addition, they are still maintaining and assisting other company’s softwares while learning new information of upcoming software updates or new technological products. 
-</p>
+<h2 class="major"></h2>	
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
+
+									<h2 class="major"></h2>	
+
+<h2 class="major">Project Idea</h2>
+									<h3>Basketball Tinder/Grindr</h3><br/><br/>
+									<h4>Overview</h4><br/>
+The project idea is a smartphone application targeted towards male and female Basketball players. The app allows Basketball players alike to meet up, interact, make friends, create a team or simply look for someone to compete with in a game of 1 on 1. The app will only allow players above the age of 18 to sign up and register since there is a duty of care when granting minors, the ability to meet with strangers. The application will match the players accordingly through the use of a pairing system like Tinder. The app will find each player a suitable candidate by using an algorithm that takes into account the players height, weight, skill level, number of hours per week they play basketball and the players location. Since it is necessary for a player to only be matched within reasonable proximity of each other. <br/><br/>
+<h4>Motivation</h4><br/>
+The motivation for this project was because majority of the people in our group loves the game of basketball and can relate to the pain of wanting to go out and play basketball but not having anyone to go and play with. It is also important to note that in Australia, within the ages of 18-24, 43.8% of men are overweight whilst 33.3% of women are overweight. When going one further up the age demographic of 25-34 year old, 62.5% of men in Australia are overweight whilst 42.5% of women are overweight. The app will create a solution for those seeking the opportunity to start exercising, whilst also decreasing the statistical value of the overweight statistic in Australia. Since basketball is also a universal sport thanks to Michael Jordan, the app can be advertised to the whole world and get a large sum of people involved if the app becomes a success, thus creating better opportunity to match players similar to each other, meet more players and overall raise and improve the health of everyone by being part of the action. The application will also be free globally, allowing everyone to download and the chance to participate.<br/><br/>
+
+									<h4>Description</h4><br/>
+The function of the application will be very similar to a very popular app called ‘Tinder’ with a sprinkle of features from another popular app called ‘Uber’. But instead of finding people with the motive to find that significant other like Tinder, this app will find suitable basketball players that have the same abilities and traits as your own. The app will use the user’s current location and where other users are just like the app ‘Uber.’ It may also use the user’s location when the app isn’t open, which can decrease battery life, but this gives the user an idea of how far other users are and how close nearby basketball courts are to meetup and play basketball. The app will show the players within your current search distance and that current search distance will be based on the User’s desired range; you may change it to as big as 5km. This app will also include a swipe feature for users to swipe left (reject) or right (approve/like). The candidates shown will be based on their experience in basketball and how seriously they like to play. Height, Weight and Location will also be taken into account when trying to find matches. There will be a profile feature where users can add a caption about themselves and another section where the users give themselves a rating out of 5 for their skill level and another rating out of 5 for their competitiveness. It also has a rating system with a comment to leave after each game session. Users can rate other users out of 5 based on the experience they had during the meetup, so if you flake other users or have a toxic attitude towards others and make it an unpleasant experience for other users. It will cause harm to your profile as it gives other users insight knowledge of your record for other future users. Basketball Tinder will have an unlimited amount swipes but a limit of 6 matches a day, because it will be assumed that it will take 4 hours in total to meet and play basketball with another user. The app will notify the user if they’ve matched with another user or if there are other users nearby. There will be no in app purchases in Basketball Tinder and everything is completely free. There will be a chat area for the users to talk to their matches. This feature will be just like any other social messaging platform such as messenger or Instagram direct message, which will make it easy for the user to communicate with other users. Another feature in Basketball Tinder is the user can link their social media on their profile to see whether users have mutual friends amongst each other which can lead to friendly basketball games together. When and If the user does not want to use the app anymore, there will be a function in the settings called “Delete Account” and it will be in bold and red, if accidentally pressed it will ask “are you sure?” To make sure that it is the User’s wish. However, it won’t totally delete, and it will only deactivate. It will activate again once you simply log back in.<br/><br/>
+<h4>Tools and Technologies</h4><br/>
+Phones and Computers will be the required hardware tools needed to create and complete the app since a team will need to code the various unique features, create the layout, design the app and then do further testing to search for bugs, errors and spaghetti codes. The software needed for this project would be some kind of geolocation software, it would allow your device to deduce your location if connected to the internet and then using that data match the candidates accordingly. Some kind of social media integration software is also needed to make registering as smooth as possible whilst also putting in minimal effort. Another software essential to the app is a swipe feature, it will tell the app if you approve or disapprove the candidate players given. The app will also need to be able to allow the user to access their device’s gallery/photo to upload a photo of their choice to edit their profile. The addition of a ‘Delete Account’ function is also necessary, although one could say meeting newer players is never enough, Users might not want to use the app anymore for whatever their reasons may be and as such should morally be given the option to delete their account.<br/><br/>
+<h4>Skills Required</h4><br/>
+A necessary skill would be vast knowledge on usability, one would need to know the best interface for Users to see with the least amount of problems whilst making it look appealing and unique. The users will need to face challenges of using a new app and it is necessary for Users to get from point A to point B successfully, this will determine whether the app is successful or a failure. The proficient use in coding languages like Java, C++ or Python would also be another necessary skill. Since it is going to be mandatory to use programs like MIT app inventor or XCode in order to create the app. Although current University students will have trouble with the programming aspect in the design stages, it will be quite easy to find someone suitable to program the application since programming is the bread and butter of anyone with an IT degree. It’s also feasible to find the hardware required as phones and computers are very accessible and quite affordable in the current modern age and time.<br/><br/>
+
+<h4>Outcome</h4><br/>
+If this group project is successful, the outcome will be gaining recognition, thus allowing us the gaining of sponsors and money to fund more into the app in order to create the best possible app with the least amount of problems. Because it will still be in early stages, many updates will occur, not only because of the inevitable errors and problems, but also to further improve on the app’s features. When looking back to the original problem/motivation. The number of overweight people in the age group of 18-34 will hopefully start to take a decline and this can lead many more people to join the process and start this new and healthy lifestyle. The impact of the app will lead many people to gain interest in not only exercising, it will allow people to build their social, teamwork and communication skills and also enjoy the game of basketball simultaneously.<br/><br/>
+
+
+
+
+
+
+									
+									
+									
+				
+
+</p>
 
 									
 
